@@ -23,7 +23,7 @@
     "prebuild": "npm run copy",
     "build": "phenomic build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -t -d dist -r git@github.com:stylelint/stylelint.github.io.git -b master",
+    "deploy": "gh-pages -t -d dist",
     "watch": "jest --watch"
   },
   "phenomic": {
@@ -181,7 +181,7 @@
     "remark-toc": "^3.1.0",
     "rimraf": "^2.5.4",
     "style-loader": "^0.19.1",
-    "stylelint": "^9.10.1",
+    "stylelint": "github:docschina/stylelint",
     "stylelint-config-standard": "^18.1.0",
     "stylelint-order": "^0.8.1",
     "unist-util-visit": "^1.1.1",

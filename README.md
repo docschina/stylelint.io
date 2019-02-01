@@ -1,24 +1,24 @@
 # stylelint.io
 
-The source of stylelint website.
+stylelint 网站源码。
 
-To get started:
+开始：
 
 ```shell
 npm install
 ```
 
-Then to making visual edits:
+然后进行视觉编辑：
 
 ```shell
 npm start
 ```
 
-Or to update the website to the latest version of stylelint:
+或者将网站更新为最新版本的 stylelint：
 
 ```shell
-npm install --save-dev stylelint@latest
+npm install --save-dev docschina/stylelint
 npm run deploy
 ```
 
-... then commit and push your dependency change.
+... 然后提交并推送您的依赖项更改。
