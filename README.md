@@ -21,4 +21,4 @@ npm install --save-dev docschina/stylelint
 npm run deploy
 ```
 
-... 然后提交并推送您的依赖项更改。
+然后提交并推送您的依赖项更改。
